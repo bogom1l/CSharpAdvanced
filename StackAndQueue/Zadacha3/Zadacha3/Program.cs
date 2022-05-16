@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Zadacha3
 {
@@ -6,7 +8,12 @@ namespace Zadacha3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("aaa");
+
+            
+
+
+
+
         }
     }
 }
