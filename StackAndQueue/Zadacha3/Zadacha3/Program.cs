@@ -6,7 +6,7 @@ namespace Zadacha3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("aa");
+            Console.WriteLine("aaa");
         }
     }
 }
