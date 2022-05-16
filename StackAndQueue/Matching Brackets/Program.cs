@@ -30,10 +30,6 @@ namespace Zadacha3
                 }
             }
 
-
-
-
-
         }
     }
 }
