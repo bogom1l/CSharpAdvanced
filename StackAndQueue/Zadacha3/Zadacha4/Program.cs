@@ -10,3 +10,4 @@ namespace Zadacha4
         }
     }
 }
+
