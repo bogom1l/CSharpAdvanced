@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streams, Files and Directories - Lab", "Streams, Files and Directories - Lab\Streams, Files and Directories - Lab.csproj", "{4E3376F0-4B69-403E-8D32-4C2CCFC2F09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Odd Lines", "1. Odd Lines\1. Odd Lines.csproj", "{DC558DC3-6F78-4101-9462-6AA7CB08E94B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3376F0-4B69-403E-8D32-4C2CCFC2F09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3376F0-4B69-403E-8D32-4C2CCFC2F09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3376F0-4B69-403E-8D32-4C2CCFC2F09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3376F0-4B69-403E-8D32-4C2CCFC2F09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC558DC3-6F78-4101-9462-6AA7CB08E94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC558DC3-6F78-4101-9462-6AA7CB08E94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC558DC3-6F78-4101-9462-6AA7CB08E94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC558DC3-6F78-4101-9462-6AA7CB08E94B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB0B91A-E19A-4061-A659-8033EA9B8137}
+	EndGlobalSection
+EndGlobal
