@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Sort Even Numbers", "1. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Sum Numbers", "2. Sum Numbers\2. Sum Numbers.csproj", "{851856FA-F355-40F6-AFDF-7B1D2B5811B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Count Uppercase Words", "3. Count Uppercase Words\3. Count Uppercase Words.csproj", "{75C998A2-3094-4F7B-A1AD-E09D90EE275F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Count Uppercase Words", "3. Count Uppercase Words\3. Count Uppercase Words.csproj", "{75C998A2-3094-4F7B-A1AD-E09D90EE275F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Add VAT", "4. Add VAT\4. Add VAT.csproj", "{8AF35474-8C12-4916-BEBF-969BA4A22332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Add VAT", "4. Add VAT\4. Add VAT.csproj", "{8AF35474-8C12-4916-BEBF-969BA4A22332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Filter by Age", "5. Filter by Age\5. Filter by Age.csproj", "{5FA81B81-F9DF-4DA4-9C09-49C0664E7B39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Filter by Age", "5. Filter by Age\5. Filter by Age.csproj", "{5FA81B81-F9DF-4DA4-9C09-49C0664E7B39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

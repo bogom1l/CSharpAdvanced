@@ -7,6 +7,7 @@ namespace Functional_Programming___Lab
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //asd
         }
     }
 }
