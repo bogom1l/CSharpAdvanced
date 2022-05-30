@@ -9,7 +9,10 @@ namespace _4._Add_VAT
         {
             double[] nums = Console.ReadLine().Split(", ").Select(double.Parse).Select(x => x + x * 0.2).ToArray();
 
-            Console.WriteLine(string.Join("\n", nums));
+            foreach (var item in nums)
+            {
+                Console.WriteLine($"{item:f2}");
+            }
 
         }
     }
