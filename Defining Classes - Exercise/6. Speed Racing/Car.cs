@@ -39,8 +39,7 @@ namespace DefiningClasses
             else
             {
                 Console.WriteLine("Insufficient fuel for the drive");
-            }
-            
+            }  
         }
     }
 }
