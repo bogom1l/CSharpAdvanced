@@ -29,7 +29,7 @@ namespace DefiningClasses
 
             foreach (var currPerson in finalList2)
             {
-                Console.WriteLine($"{currPerson.Name} {currPerson.Age}");
+                Console.WriteLine($"{currPerson.Name} - {currPerson.Age}");
             }
             
         }

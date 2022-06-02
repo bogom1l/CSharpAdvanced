@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Oldest Family Member", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Opinion Poll", "4. Opinion Poll\4. Opinion Poll.csproj", "{4DD1A61F-F8D3-4BEA-96D7-96023340467D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Date Modifier", "5. Date Modifier\5. Date Modifier.csproj", "{3B08B77A-1549-4B2E-808B-46C967793826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4DD1A61F-F8D3-4BEA-96D7-96023340467D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DD1A61F-F8D3-4BEA-96D7-96023340467D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DD1A61F-F8D3-4BEA-96D7-96023340467D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B08B77A-1549-4B2E-808B-46C967793826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B08B77A-1549-4B2E-808B-46C967793826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B08B77A-1549-4B2E-808B-46C967793826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B08B77A-1549-4B2E-808B-46C967793826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
