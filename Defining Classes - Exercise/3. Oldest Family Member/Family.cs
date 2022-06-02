@@ -7,20 +7,20 @@ namespace DefiningClasses
 {
     public class Family
     {
-        public List<Person> People { get; set; }
+        private List<Person> people; //public //prop
         public Family()
         {
-            People = new List<Person>();
+            this.people = new List<Person>();
         }
 
         public void AddMember(Person member)
         {
-            People.Add(member);
+            this.people.Add(member);
         }
 
         public Person GetOldestMember()
         {
-            Person maxAgePerson = People.OrderByDescending(p => p.Age).First();
+            Person maxAgePerson = people.OrderByDescending(p => p.Age).First();
             return maxAgePerson;
         }
     }

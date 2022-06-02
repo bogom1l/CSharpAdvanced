@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Defining Classes - Exercise", "Defining Classes - Exercise\Defining Classes - Exercise.csproj", "{1610610D-57F9-401F-AD40-D501E9ECCE51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Defining Classes - Exercise", "Defining Classes - Exercise\Defining Classes - Exercise.csproj", "{1610610D-57F9-401F-AD40-D501E9ECCE51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Define a Class Person", "1. Define a Class Person\1. Define a Class Person.csproj", "{E47A5300-DFB1-4D3F-9D49-8B8D2E4EE84E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Define a Class Person", "1. Define a Class Person\1. Define a Class Person.csproj", "{E47A5300-DFB1-4D3F-9D49-8B8D2E4EE84E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Creating Constructors", "2. Creating Constructors\2. Creating Constructors.csproj", "{E73351B5-ED40-4E7F-A5BF-0B5C7935DCBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Creating Constructors", "2. Creating Constructors\2. Creating Constructors.csproj", "{E73351B5-ED40-4E7F-A5BF-0B5C7935DCBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Oldest Family Member", "3. Oldest Family Member\3. Oldest Family Member.csproj", "{0CE32A9B-7FD8-40FC-B42B-7E2AE04815D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Oldest Family Member", "3. Oldest Family Member\3. Oldest Family Member.csproj", "{0CE32A9B-7FD8-40FC-B42B-7E2AE04815D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Opinion Poll", "4. Opinion Poll\4. Opinion Poll.csproj", "{4DD1A61F-F8D3-4BEA-96D7-96023340467D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Opinion Poll", "4. Opinion Poll\4. Opinion Poll.csproj", "{4DD1A61F-F8D3-4BEA-96D7-96023340467D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Date Modifier", "5. Date Modifier\5. Date Modifier.csproj", "{3B08B77A-1549-4B2E-808B-46C967793826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Date Modifier", "5. Date Modifier\5. Date Modifier.csproj", "{3B08B77A-1549-4B2E-808B-46C967793826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Speed Racing", "6. Speed Racing\6. Speed Racing.csproj", "{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3B08B77A-1549-4B2E-808B-46C967793826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B08B77A-1549-4B2E-808B-46C967793826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B08B77A-1549-4B2E-808B-46C967793826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
