@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Opinion Poll", "4. Opini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Date Modifier", "5. Date Modifier\5. Date Modifier.csproj", "{3B08B77A-1549-4B2E-808B-46C967793826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Speed Racing", "6. Speed Racing\6. Speed Racing.csproj", "{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Speed Racing", "6. Speed Racing\6. Speed Racing.csproj", "{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.RawData", "7.RawData\7.RawData.csproj", "{190B28F8-B621-4713-B049-93678E226B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF58C55D-33D2-4C96-B2BC-4F7C82DE6C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190B28F8-B621-4713-B049-93678E226B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190B28F8-B621-4713-B049-93678E226B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190B28F8-B621-4713-B049-93678E226B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190B28F8-B621-4713-B049-93678E226B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
