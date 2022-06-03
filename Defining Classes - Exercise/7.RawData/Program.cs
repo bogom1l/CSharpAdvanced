@@ -10,8 +10,6 @@ namespace DefiningClasses
         {
             List<Car> cars = new List<Car>();
 
-            
-
             int N = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < N; i++)
@@ -44,8 +42,8 @@ namespace DefiningClasses
                 Tire currTire2 = new Tire(currTire2Age, currTire2Pressure);
                 Tire currTire3 = new Tire(currTire3Age, currTire3Pressure);
                 Tire currTire4 = new Tire(currTire4Age, currTire4Pressure);
-                List<Tire> currTireList = new List<Tire>();
 
+                List<Tire> currTireList = new List<Tire>();
                 currTireList.Add(currTire1);
                 currTireList.Add(currTire2);
                 currTireList.Add(currTire3);
