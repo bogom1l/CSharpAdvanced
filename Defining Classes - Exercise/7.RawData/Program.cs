@@ -10,7 +10,7 @@ namespace DefiningClasses
         {
             List<Car> cars = new List<Car>();
 
-            List<Tire> currTireList = new List<Tire>();
+            
 
             int N = int.Parse(Console.ReadLine());
 
@@ -44,6 +44,8 @@ namespace DefiningClasses
                 Tire currTire2 = new Tire(currTire2Age, currTire2Pressure);
                 Tire currTire3 = new Tire(currTire3Age, currTire3Pressure);
                 Tire currTire4 = new Tire(currTire4Age, currTire4Pressure);
+                List<Tire> currTireList = new List<Tire>();
+
                 currTireList.Add(currTire1);
                 currTireList.Add(currTire2);
                 currTireList.Add(currTire3);
@@ -54,20 +56,25 @@ namespace DefiningClasses
                 cars.Add(currCar);
             }
 
-            string command = Console.ReadLine();
-            if (command == "fragile")
+            string wantedCargo = Console.ReadLine();
+
+            if (wantedCargo == "fragile")
             {
-                List<Car> newCarList = cars.Where(car => car.CarCargo.Type == "fragile").ToList();
-                newCarList = newCarList.Where(x => x.CarTires.Where(t => t.Pressure < 1).Count() > 0).ToList();
+                List<Car> newCarList = cars.Where(car => car.CarCargo.Type == wantedCargo)
+                    .Where(x => x.CarTires.Any(t => t.Pressure < 1))
+                    .ToList();
+
                 foreach (Car car in newCarList)
                 {
                     Console.WriteLine(car.Model);
                 }
             }
-            if (command == "flammable")
+            else if (wantedCargo == "flammable")
             {
-                List<Car> newCarList = cars.Where(car => car.CarCargo.Type == "flammable").ToList();
-                newCarList = newCarList.Where(x => x.CarEngine.Power > 250).ToList();
+                List<Car> newCarList = cars.Where(car => car.CarCargo.Type == wantedCargo)
+                    .Where(x => x.CarEngine.Power > 250)
+                    .ToList();
+
                 foreach (Car car in newCarList)
                 {
                     Console.WriteLine(car.Model);
