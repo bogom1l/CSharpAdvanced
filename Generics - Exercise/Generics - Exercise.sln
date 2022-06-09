@@ -11,11 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.GenericBoxofInteger", "2.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.GenericSwapMethodStrings", "3.GenericSwapMethodStrings\3.GenericSwapMethodStrings.csproj", "{AFF28013-1BCD-4008-82D9-E39E72681C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.GenericSwapMethodIntegers", "4.GenericSwapMethodIntegers\4.GenericSwapMethodIntegers.csproj", "{42EFF620-6256-4363-A0F4-4F6050189406}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.GenericSwapMethodIntegers", "4.GenericSwapMethodIntegers\4.GenericSwapMethodIntegers.csproj", "{42EFF620-6256-4363-A0F4-4F6050189406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.GenericCountMethodStrings", "5.GenericCountMethodStrings\5.GenericCountMethodStrings.csproj", "{281C7515-4295-492F-BF40-C26B0C2DD2BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.GenericCountMethodStrings", "5.GenericCountMethodStrings\5.GenericCountMethodStrings.csproj", "{281C7515-4295-492F-BF40-C26B0C2DD2BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.GenericCountMethodDoubles", "6.GenericCountMethodDoubles\6.GenericCountMethodDoubles.csproj", "{E7CD6E32-3596-4395-B074-E439E59B9BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.GenericCountMethodDoubles", "6.GenericCountMethodDoubles\6.GenericCountMethodDoubles.csproj", "{E7CD6E32-3596-4395-B074-E439E59B9BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Tuple", "7.Tuple\7.Tuple.csproj", "{40AAD0B2-1AA6-4FB4-A210-A5EEFCC52B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.Threeuple", "8.Threeuple\8.Threeuple.csproj", "{E972DF8E-8D03-480F-88C2-290D5B960AB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{E7CD6E32-3596-4395-B074-E439E59B9BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7CD6E32-3596-4395-B074-E439E59B9BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7CD6E32-3596-4395-B074-E439E59B9BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AAD0B2-1AA6-4FB4-A210-A5EEFCC52B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AAD0B2-1AA6-4FB4-A210-A5EEFCC52B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AAD0B2-1AA6-4FB4-A210-A5EEFCC52B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AAD0B2-1AA6-4FB4-A210-A5EEFCC52B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E972DF8E-8D03-480F-88C2-290D5B960AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E972DF8E-8D03-480F-88C2-290D5B960AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E972DF8E-8D03-480F-88C2-290D5B960AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E972DF8E-8D03-480F-88C2-290D5B960AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
