@@ -74,6 +74,7 @@ namespace StreetRacing
 
         public Car GetMostPowerfulCar()
         {
+	/*
             int mostHP = 0;
 
             foreach (Car currCar in Participants)
@@ -86,6 +87,10 @@ namespace StreetRacing
 
             Car carToFind = Participants.FirstOrDefault(x => x.HorsePower == mostHP);
             return carToFind;
+	*/
+
+	 Car carToFind = Participants.OrderbyDescending(x => x.HorsePower).FirstOrDefault();
+	 return carToFind ;
         }
         
 
