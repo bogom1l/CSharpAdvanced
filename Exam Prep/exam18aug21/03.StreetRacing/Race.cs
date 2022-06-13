@@ -36,78 +36,75 @@ namespace StreetRacing
         }
 
         public void Add(Car car)
-        {
-            Car carToFind = Participants.Find(x => x.LicensePlate == car.LicensePlate);
+        {   
+            bool ans = Participants.Any(x => x.LicensePlate == car.LicensePlate);
 
-            if (!Participants.Contains(carToFind))
+            if (!ans)
             {
-                //if (this.Participants.Capacity <= this.Capacity)
-                // PAK DVUSMISLICA ??? ??   ?? ? ? ?? ?? ? ? ?? ?? ? 
-
-                if (car.HorsePower <= this.MaxHorsePower)
+                if (Participants.Count < this.Capacity)
                 {
-                    this.Participants.Add(car);
+                    if (car.HorsePower <= this.MaxHorsePower)
+                    {
+                        this.Participants.Add(car);
+                    }
                 }
-
-            }
+            }   
         }
 
         public bool Remove(string licensePlate)
         {
-            Car carToFind = Participants.Find(x => x.LicensePlate == licensePlate);
+            Car carToFind = Participants.FirstOrDefault(x => x.LicensePlate == licensePlate);
 
-            if (Participants.Contains(carToFind))
+            if (carToFind == null)
+            {
+                return false;
+            }   
+            else
             {
                 Participants.Remove(carToFind);
                 return true;
-            }
-            else
-            {
-                return false;
             }
         }
 
         public Car FindParticipant(string licensePlate)
         {
-            Car carToFind = Participants.Find(x => x.LicensePlate == licensePlate);
+            Car carToFind = Participants.FirstOrDefault(x => x.LicensePlate == licensePlate);
             return carToFind;
         }
 
         public Car GetMostPowerfulCar()
         {
-            if (Participants.Count <= 0)
-            {
-                return null;
-            }
-            else
-            {
-                int mostHP = 0;
+            int mostHP = 0;
 
-                foreach (Car currCar in Participants)
+            foreach (Car currCar in Participants)
+            {
+                if (currCar.HorsePower > mostHP)
                 {
-                    if (currCar.HorsePower > mostHP)
-                    {
-                        mostHP = currCar.HorsePower;
-                    }
+                    mostHP = currCar.HorsePower;
                 }
-
-                Car carToFind = Participants.First(x => x.HorsePower == mostHP);
-                return carToFind;
             }
+
+            Car carToFind = Participants.FirstOrDefault(x => x.HorsePower == mostHP);
+            return carToFind;
         }
+        
 
         public string Report()
         {
+            var sb = new StringBuilder();
             string ans = "";
 
             ans += $"Race: {this.Name} - Type: {this.Type} (Laps: {this.Laps})";
+            sb.AppendLine($"Race: {this.Name} - Type: {this.Type} (Laps: {this.Laps})");
 
             foreach (Car currCar in Participants)
             {
                 ans += $"{currCar}";
+                sb.AppendLine($"{currCar}");
             }
 
-            return ans;
+            //return ans;
+            return sb.ToString().Trim();
         }
 
 
