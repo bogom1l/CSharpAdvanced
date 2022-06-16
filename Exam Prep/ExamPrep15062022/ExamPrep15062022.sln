@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPrep15062022", "ExamPrep15062022\ExamPrep15062022.csproj", "{0D4ED856-7002-41BA-9E8F-D69C0680CA70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.MealPlan", "01.MealPlan\01.MealPlan.csproj", "{5BF941FD-4372-45C9-8D81-3C5A37773C16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.MealPlan", "01.MealPlan\01.MealPlan.csproj", "{5BF941FD-4372-45C9-8D81-3C5A37773C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BeaveratWork", "02.BeaveratWork\02.BeaveratWork.csproj", "{53D54DF2-8FF1-4F4C-91F0-251017EEC2A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5BF941FD-4372-45C9-8D81-3C5A37773C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF941FD-4372-45C9-8D81-3C5A37773C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF941FD-4372-45C9-8D81-3C5A37773C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D54DF2-8FF1-4F4C-91F0-251017EEC2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D54DF2-8FF1-4F4C-91F0-251017EEC2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D54DF2-8FF1-4F4C-91F0-251017EEC2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D54DF2-8FF1-4F4C-91F0-251017EEC2A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
