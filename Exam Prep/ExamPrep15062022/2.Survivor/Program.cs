@@ -99,7 +99,7 @@ namespace _2.Survivor
         {
             for (int i = 0; i < jagged.Length; i++)
             {
-                jagged[i] = Console.ReadLine().Split(' ').Select(char.Parse).ToArray();
+                jagged[i] = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(char.Parse).ToArray();
             }
         }
         private static void PrintJaggedArray(char[][] jagged)

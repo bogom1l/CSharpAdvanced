@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.FoodFinder", "1.FoodFinde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.PawnWars", "2.PawnWars\2.PawnWars.csproj", "{490C8DB1-038B-439A-A334-105F8C7ABEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Masterchef", "1.Masterchef\1.Masterchef.csproj", "{9F3E2950-A997-4453-A156-4580AFCFA444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Masterchef", "1.Masterchef\1.Masterchef.csproj", "{9F3E2950-A997-4453-A156-4580AFCFA444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Survivor", "2.Survivor\2.Survivor.csproj", "{9B62DF1F-B4CF-477A-84DF-D8DC3ED7D643}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Survivor", "2.Survivor\2.Survivor.csproj", "{9B62DF1F-B4CF-477A-84DF-D8DC3ED7D643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Bombs", "1.Bombs\1.Bombs.csproj", "{944560CB-2E44-4EA2-B944-ABFD919ACE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Snake", "2.Snake\2.Snake.csproj", "{9E903115-5577-462A-8BDD-E9CE5BC40FAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{9B62DF1F-B4CF-477A-84DF-D8DC3ED7D643}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B62DF1F-B4CF-477A-84DF-D8DC3ED7D643}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B62DF1F-B4CF-477A-84DF-D8DC3ED7D643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944560CB-2E44-4EA2-B944-ABFD919ACE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944560CB-2E44-4EA2-B944-ABFD919ACE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944560CB-2E44-4EA2-B944-ABFD919ACE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944560CB-2E44-4EA2-B944-ABFD919ACE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E903115-5577-462A-8BDD-E9CE5BC40FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E903115-5577-462A-8BDD-E9CE5BC40FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E903115-5577-462A-8BDD-E9CE5BC40FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E903115-5577-462A-8BDD-E9CE5BC40FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
