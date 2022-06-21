@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace _2.PawnWars
+namespace _2.PawnWars // 80/100
 {
     internal class Program
     {
@@ -25,9 +25,9 @@ namespace _2.PawnWars
                     //PrintMatrix(matrix);
 
                     //check if White won diagonally on right
-                    if (matrix[whiteCoordinateRow - 1, whiteCoordinateCol + 1] == 'b'
+                    if (AreValidCoordinates(matrix, whiteCoordinateRow - 1, whiteCoordinateCol + 1)
                         &&
-                        AreValidCoordinates(matrix, whiteCoordinateRow - 1, whiteCoordinateCol + 1))
+                        matrix[whiteCoordinateRow - 1, whiteCoordinateCol + 1] == 'b')
                     {
                         int ansRow = TranslateCoordinatesRow(whiteCoordinateRow - 1);
                         char ansCol = TranslateCoordinatesCol(whiteCoordinateCol + 1);
@@ -35,9 +35,10 @@ namespace _2.PawnWars
                         break;
                     }
                     //check if White won diagonally on left
-                    if (matrix[whiteCoordinateRow - 1, whiteCoordinateCol - 1] == 'b'
+                    if (AreValidCoordinates(matrix, whiteCoordinateRow - 1, whiteCoordinateCol - 1)
                         &&
-                        AreValidCoordinates(matrix, whiteCoordinateRow - 1, whiteCoordinateCol - 1))
+                        matrix[whiteCoordinateRow - 1, whiteCoordinateCol - 1] == 'b'
+                        )
                     {
                         int ansRow = TranslateCoordinatesRow(whiteCoordinateRow - 1);
                         char ansCol = TranslateCoordinatesCol(whiteCoordinateCol - 1);
@@ -45,16 +46,16 @@ namespace _2.PawnWars
                         break;
                     }
                     //if White didnt win -> White Move
-                    if ((!WhiteMove(ref whiteCoordinateRow, whiteCoordinateCol, ref matrix))
-                        && AreValidCoordinates(matrix, whiteCoordinateRow, whiteCoordinateCol))
+                    if (AreValidCoordinates(matrix, whiteCoordinateRow, whiteCoordinateCol)
+                       && (!WhiteMove(ref whiteCoordinateRow, whiteCoordinateCol, ref matrix)))
                     {
                         break;
                     }
 
                     //check if Black won diagonally on right
-                    if (matrix[blackCoordinateRow + 1, blackCoordinateCol + 1] == 'w'
+                    if (AreValidCoordinates(matrix, blackCoordinateRow + 1, blackCoordinateCol + 1)
                         &&
-                        AreValidCoordinates(matrix, blackCoordinateRow + 1, blackCoordinateCol + 1))
+                        matrix[blackCoordinateRow + 1, blackCoordinateCol + 1] == 'w')
                     {
                         int ansRow = TranslateCoordinatesRow(blackCoordinateRow + 1);
                         char ansCol = TranslateCoordinatesCol(blackCoordinateCol + 1);
@@ -62,9 +63,9 @@ namespace _2.PawnWars
                         break;
                     }
                     //check if Black won diagonally on left
-                    if (matrix[blackCoordinateRow + 1, blackCoordinateCol - 1] == 'w'
+                    if (AreValidCoordinates(matrix, blackCoordinateRow + 1, blackCoordinateCol - 1)
                         &&
-                        AreValidCoordinates(matrix, blackCoordinateRow + 1, blackCoordinateCol - 1))
+                        matrix[blackCoordinateRow + 1, blackCoordinateCol - 1] == 'w')
                     {
                         int ansRow = TranslateCoordinatesRow(blackCoordinateRow + 1);
                         char ansCol = TranslateCoordinatesCol(blackCoordinateCol - 1);
@@ -72,25 +73,22 @@ namespace _2.PawnWars
                         break;
                     }
                     //if Black didnt win -> Black Move
-                    if ((!BlackMove(ref blackCoordinateRow, blackCoordinateCol, ref matrix))
-                        &&
-                        AreValidCoordinates(matrix,blackCoordinateRow,blackCoordinateCol))
+                    if (AreValidCoordinates(matrix,blackCoordinateRow,blackCoordinateCol)
+                         &&
+                        (!BlackMove(ref blackCoordinateRow, blackCoordinateCol, ref matrix)))
                     {
                         break;
                     }
-
-
-
-
 
                 }
             }
             else //"Game over! {White/Black} pawn is promoted to a queen at {coordinates}."
             {
-                while ((WhiteMove(ref whiteCoordinateRow, whiteCoordinateCol, ref matrix)
+                while (AreValidCoordinates(matrix, whiteCoordinateRow, whiteCoordinateCol)
+                    && AreValidCoordinates(matrix, blackCoordinateRow, blackCoordinateCol)
+                    && (WhiteMove(ref whiteCoordinateRow, whiteCoordinateCol, ref matrix)
                     && (BlackMove(ref blackCoordinateRow, blackCoordinateCol, ref matrix))
-                    && AreValidCoordinates(matrix, whiteCoordinateRow, whiteCoordinateCol))
-                    && AreValidCoordinates(matrix, blackCoordinateRow,blackCoordinateCol))
+                    ))
                 {
                     //Console.WriteLine();
                     //PrintMatrix(matrix);
