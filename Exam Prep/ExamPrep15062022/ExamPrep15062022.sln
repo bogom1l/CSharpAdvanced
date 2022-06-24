@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.-Cooking", "1.-Cooking\1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.-Selling", "2.-Selling\2.-Selling.csproj", "{30337910-0A48-42D5-8C76-637CECE3E792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.--Armory", "2.--Armory\2.--Armory.csproj", "{048E82A4-FBD8-4A24-9F24-71B51EDEB56D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.--Armory", "2.--Armory\2.--Armory.csproj", "{048E82A4-FBD8-4A24-9F24-71B51EDEB56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.- The Battle of the Five Armies", "02.- The Battle of the Five Armies\02.- The Battle of the Five Armies.csproj", "{D081673E-7A26-49B1-8A04-B4532576BA54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{048E82A4-FBD8-4A24-9F24-71B51EDEB56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{048E82A4-FBD8-4A24-9F24-71B51EDEB56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{048E82A4-FBD8-4A24-9F24-71B51EDEB56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D081673E-7A26-49B1-8A04-B4532576BA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D081673E-7A26-49B1-8A04-B4532576BA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D081673E-7A26-49B1-8A04-B4532576BA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D081673E-7A26-49B1-8A04-B4532576BA54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
